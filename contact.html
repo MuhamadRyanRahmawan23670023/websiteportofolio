@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigasi -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">Profil</a>
+            <a href="gallery.html" class="nav-link">Galeri</a>
+            <a href="contact.html" class="nav-link active">Kontak</a>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="parallax">
+        <h1>Hubungi Saya</h1>
+        <p>Silakan isi form berikut untuk menghubungi saya.</p>
+    </header>
+
+    <!-- Form Kontak -->
+    <main class="container">
+        <form action="#" method="POST" class="contact-form">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tulis pesan Anda di sini..." required></textarea>
+
+            <button type="submit">Kirim</button>
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Portofolio Pribadi</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
